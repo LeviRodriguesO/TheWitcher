@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    margin-left: 5rem;
+}
+
+.list{
+    margin-right: 5em;
+}
+
+a{
+    padding-left: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+body{
+    background-image: url(the\ witcher\ hell.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.Geralt{
+    width: 35rem;
+    margin: auto;
+    display: block;
+}
+
+.foto{
+    width: 24rem;
+    left: 36%;
+    position: absolute;
+    bottom: -3vw;
+}
+
+button{
+    width: 17rem;
+    height: 4rem;
+    left: 40%;
+    position: absolute;
+    bottom: -22%;
+    background-image: linear-gradient(to top, #d90202 0%, #810a0a  35%, #d90202  100%);
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 8px;
+    
+    
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
